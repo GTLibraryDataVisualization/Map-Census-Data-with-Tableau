@@ -3,6 +3,7 @@
 The United States Census is one of the most widely used data sources in all of data science and data visualization. This training will run through the process of gathering, modifying, and visualizing census data. 
 End Product should look like this:
  
+   ![image](https://user-images.githubusercontent.com/37058499/64698457-ebdbff80-d470-11e9-9570-babaa0cfd6e1.png)
 
 ## STEP ONE: Gathering Data
 
