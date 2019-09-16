@@ -9,26 +9,37 @@ End Product should look like this:
 
 In this training we will be using American FactFinder (https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml). American FactFinder is the best source of all Census data. The website allows you to query data to meet almost all of your needs.
 How to Query
-### 1.	When you are on their website, click on Advanced Search
+### 1.	Retrieve Census Data 
  
  ![image](https://user-images.githubusercontent.com/37058499/64698820-93f1c880-d471-11e9-9be7-8c5fa9a07bc1.png)
 
-Note: This is the main page for Querying data. The four boxes on the left-hand side will allow us to filter the data to suit our needs. For this training we will be using data that consists of the median household income in Georgia by county and the median age in Georgia by county. To do this, click on topics and select People ->Basic Count/Estimate -> Resident Population. 
-
-### 2.	Filter this data down to Georgia Counties. To do this:
-   a.	click on Add/Remove Geographies, 
-   b.	Select Counties, 
-   c.	Select Georgia, and then select all counties. 
- You should end up with the following: 
+   a. When you are on American FactFinder website, click on Advanced Search
+   b. Under Advanced Search, click on SHOW ME ALL
+Note: This is the main page for Querying data. The four boxes on the left-hand side will allow us to filter the data to suit our needs. For this training we will be using data that consists of the median household income in Georgia by county and the population in Georgia by county 2012-2017. To do this:
+   c. click on Topics filter on the left top filter,
+   d. select People -> Basic Count/Estimate -> Resident Population
+   (At this point you have successfully applied one filter. Now let's load georgraphies information.)
+   e. click on Georgraphies on the left fiter list
+   f. on Select a Georghic Type: County-050
+   g. on Select a State: Georgia
+   h. on Select one or more geographic areas and click Add to Your Selections: All Counties in Georgia
+ Now you should end up with the following: 
  
  ![image](https://user-images.githubusercontent.com/37058499/64698900-bbe12c00-d471-11e9-8ad6-7407fc5af6ed.png)
 
-### 3.	Select the right dataset on the result list. 
-Click on the second dataset. It is titled Annual Estimates of Resident Population: April 1,2010 to July 1,2017. You should see something like the following:
+### 2.	Select the right dataset on the result list
+Click on the second dataset. It is titled Annual Estimates of Resident Population: April 1,2010 to July 1,2018. You should see something like the following:
  
 ![image](https://user-images.githubusercontent.com/37058499/64698992-e8954380-d471-11e9-99e9-77497ad473ae.png)
 
-### 4.	Gather the map data. To do this:
+### 3. Modify the table
+a. click in the link shown above
+b. on the top left, click on the Modify Table link. See screenshot below:
+
+c. now you should see the screen below:
+
+
+### 4.	Gather the map data
    a.	click on create a map. (American FactFinder will ask you to click on a data. For this case it does not really matter, but I will select Population Estimate 2017.) You will see the following: 
 
 ![image](https://user-images.githubusercontent.com/37058499/64699039-fb0f7d00-d471-11e9-8fa1-51c5d8dac1c5.png)
@@ -43,7 +54,7 @@ The reason of that, and the goal of this workshop is:
 
 ### 5.	View the geographical data (here called spatial data). 
    a.	We do this by clicking “download”. This creates a zip file. Open this Zip and copy all of the files into a folder on your desktop. We will be using this folder later. It will hold all our data. 
-   b.	Go back to the table view. The table currently shows years 2010-2017. For readability, remove the second and third columns. To do this, click on modify table and uncheck the first two rows. 
+   b.	Go back to the table view. The table currently shows years 2010-2017. For readability, remove the second and third columns. To do this, click on Modify Table and uncheck the first two rows. 
    
 ### 6.	Download the data
    a.	Now hit download to get the data. Click on use the data. The data is now in a zip file. Open the zip file and copy the file called “Pep_2017_Pepannres_with_ann. Put it in the same folder as our spatial files. Open the file. You should see the following:
