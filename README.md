@@ -14,9 +14,12 @@ How to Query
  ![image](https://user-images.githubusercontent.com/37058499/64698820-93f1c880-d471-11e9-9be7-8c5fa9a07bc1.png)
 
    a. When you are on American FactFinder website, click on Advanced Search
+   
    b. Under Advanced Search, click on SHOW ME ALL
+   
 Note: This is the main page for Querying data. The four boxes on the left-hand side will allow us to filter the data to suit our needs. For this training we will be using data that consists of the median household income in Georgia by county and the population in Georgia by county 2012-2017. To do this:
-   c. click on Topics filter on the left top filter,
+
+   c. click on Topics filter on the left top filter
    d. select People -> Basic Count/Estimate -> Resident Population
    (At this point you have successfully applied one filter. Now let's load georgraphies information.)
    e. click on Georgraphies on the left fiter list
@@ -25,19 +28,22 @@ Note: This is the main page for Querying data. The four boxes on the left-hand s
    h. on Select one or more geographic areas and click Add to Your Selections: All Counties in Georgia
  Now you should end up with the following: 
  
- ![image](https://user-images.githubusercontent.com/37058499/64698900-bbe12c00-d471-11e9-8ad6-7407fc5af6ed.png)
+ <img width="1049" alt="Screen Shot 2019-09-16 at 8 26 01 AM" src="https://user-images.githubusercontent.com/37058499/64957972-15739d00-d85c-11e9-8097-aa1ada6d2ffb.png">
 
 ### 2.	Select the right dataset on the result list
 Click on the second dataset. It is titled Annual Estimates of Resident Population: April 1,2010 to July 1,2018. You should see something like the following:
  
-![image](https://user-images.githubusercontent.com/37058499/64698992-e8954380-d471-11e9-99e9-77497ad473ae.png)
+ <img width="1273" alt="Screen Shot 2019-09-16 at 8 33 13 AM" src="https://user-images.githubusercontent.com/37058499/64958282-bd896600-d85c-11e9-8b8d-ff3b683fc87d.png">
 
 ### 3. Modify the table
 a. click in the link shown above
 b. on the top left, click on the Modify Table link. See screenshot below:
 
+<img width="1290" alt="Screen Shot 2019-09-16 at 8 10 57 AM" src="https://user-images.githubusercontent.com/37058499/64957121-30451200-d85a-11e9-98d3-d566e0e497db.png">
+
 c. now you should see the screen below:
 
+<img width="1383" alt="Screen Shot 2019-09-16 at 8 11 11 AM" src="https://user-images.githubusercontent.com/37058499/64957127-33d89900-d85a-11e9-8cd1-ef40eca691f4.png">
 
 ### 4.	Gather the map data
    a.	click on create a map. (American FactFinder will ask you to click on a data. For this case it does not really matter, but I will select Population Estimate 2017.) You will see the following: 
