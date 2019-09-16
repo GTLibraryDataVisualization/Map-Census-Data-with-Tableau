@@ -99,12 +99,15 @@ Now we should end up with two excel files (Pop_Ga and Income_Ga) as well as all 
    b.	Add the 05000.shp file (drag and drop it on the top white space) . 
    
 ### 3.	Union data sheets (essentially a JOIN statement)
-   a.	Add Pop_Ga.csv file (again, drag and drop it on the top white space)
+   a.	Add Pop_Ga.csv file. To do this, go up to the Add button above the file you just added:  
    
+   <img width="1181" alt="Screen Shot 2019-09-16 at 9 04 34 AM" src="https://user-images.githubusercontent.com/37058499/64960543-75b90d80-d861-11e9-8011-77009b7d932d.png">
+
+    If we want to combine two datasets by one variable, it is called Unoin in Tableau. To do this, we need to tell two tables how we want to union them . 
+   b.	Select Geo Id = Id . 
+
    ![image](https://user-images.githubusercontent.com/37058499/64699210-49bd1700-d472-11e9-8b42-4bfbfb5f0aee.png)
 
-   b.	Select Geo Id = Id . 
-   
    c.	Add the income data. Once again select add CSV and add Income_Ga.csv. You should end up with the following.
    
  ![image](https://user-images.githubusercontent.com/37058499/64699261-69543f80-d472-11e9-8cd8-8210dafb9aeb.png)
