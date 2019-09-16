@@ -7,26 +7,25 @@ End Product should look like this:
 
 ## STEP ONE: Gathering Data
 
-In this training we will be using American FactFinder (https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml). American FactFinder is the best source of all Census data. The website allows you to query data to meet almost all of your needs.
-How to Query
+In this training we will be using American FactFinder (https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml). American FactFinder is the best source of all Census data. The website allows you to query data to meet almost all of your needs.  
+
 ### 1.	Retrieve Census Data 
  
  ![image](https://user-images.githubusercontent.com/37058499/64698820-93f1c880-d471-11e9-9be7-8c5fa9a07bc1.png)
 
-   a. When you are on American FactFinder website, click on Advanced Search
+   a. When you are on American FactFinder website, click on Advanced Search . 
+   b. Under Advanced Search, click on SHOW ME ALL . 
    
-   b. Under Advanced Search, click on SHOW ME ALL
-   
-Note: This is the main page for Querying data. The four boxes on the left-hand side will allow us to filter the data to suit our needs. For this training we will be using data that consists of the median household income in Georgia by county and the population in Georgia by county 2012-2017. To do this:
+Note: This is the main page for Querying data. The four boxes on the left-hand side will allow us to filter the data to suit our needs. For this training we will be using data that consists of the median household income in Georgia by county and the population in Georgia by county 2012-2017. To do this:  
 
-   c. click on Topics filter on the left top filter
-   d. select People -> Basic Count/Estimate -> Resident Population
-   (At this point you have successfully applied one filter. Now let's load georgraphies information.)
-   e. click on Georgraphies on the left fiter list
-   f. on Select a Georghic Type: County-050
-   g. on Select a State: Georgia
-   h. on Select one or more geographic areas and click Add to Your Selections: All Counties in Georgia
- Now you should end up with the following: 
+   c. click on Topics filter on the left top filter . 
+   d. select People -> Basic Count/Estimate -> Resident Population . 
+   (At this point you have successfully applied one filter. Now let's load georgraphies information.) . 
+   e. click on Georgraphies on the left fiter list . 
+   f. on Select a Georghic Type: County-050 . 
+   g. on Select a State: Georgia . 
+   h. on Select one or more geographic areas and click Add to Your Selections: All Counties in Georgia . 
+ Now you should end up with the following:   
  
  <img width="1049" alt="Screen Shot 2019-09-16 at 8 26 01 AM" src="https://user-images.githubusercontent.com/37058499/64957972-15739d00-d85c-11e9-8097-aa1ada6d2ffb.png">
 
@@ -36,34 +35,37 @@ Click on the second dataset. It is titled Annual Estimates of Resident Populatio
  <img width="1273" alt="Screen Shot 2019-09-16 at 8 33 13 AM" src="https://user-images.githubusercontent.com/37058499/64958282-bd896600-d85c-11e9-8b8d-ff3b683fc87d.png">
 
 ### 3. Modify the table
-a. click in the link shown above
-b. on the top left, click on the Modify Table link. See screenshot below:
+   a. on the top left, click on the Modify Table link. See screenshot below:  
 
 <img width="1290" alt="Screen Shot 2019-09-16 at 8 10 57 AM" src="https://user-images.githubusercontent.com/37058499/64957121-30451200-d85a-11e9-98d3-d566e0e497db.png">
 
-c. now you should see the screen below:
+   b. now you should see the screen below:    
 
 <img width="1383" alt="Screen Shot 2019-09-16 at 8 11 11 AM" src="https://user-images.githubusercontent.com/37058499/64957127-33d89900-d85a-11e9-8cd1-ef40eca691f4.png">
 
-### 4.	Gather the map data
-   a.	click on create a map. (American FactFinder will ask you to click on a data. For this case it does not really matter, but I will select Population Estimate 2017.) You will see the following: 
+   c. on top of the page, click on Download to download the dataset . 
 
-![image](https://user-images.githubusercontent.com/37058499/64699039-fb0f7d00-d471-11e9-8fa1-51c5d8dac1c5.png)
+### 4.	Gather the spatial data
+   a.	on the top right click on Create a Map. (American FactFinder will ask you to click on a data. For this case it does not really matter which value to click on, but I will select Population Estimate 2018.) You will see the following:   
 
-We are looking at a map that is very similar to our final product. So, why do we need to put this into tableau?? 
+b. on the pop-up box, click on SHOW MAP. Now you will get a map like below:  
 
-The reason of that, and the goal of this workshop is:
-   •	create an interactive visualization with Tableau (the current view is static);
-   •	customize the color, label and other details as you wish;
-   •	have the option of saving it on your local machine, embed to your presentation, publication or website.
+<img width="1655" alt="Screen Shot 2019-09-16 at 8 41 02 AM" src="https://user-images.githubusercontent.com/37058499/64958803-e1997700-d85d-11e9-9b56-7f7ffe0b200e.png">
+
+We are looking at a map that is very similar to our final product. So, why do we need to put this into tableau??   
+
+The reason of that, and the goal of this workshop is:  
+   •	create an interactive visualization with Tableau (the current view is static);  
+   •	customize the color, label and other details as you wish;  
+   •	have the option of saving it on your local machine, embed to your presentation, publication or website.  
  
 
 ### 5.	View the geographical data (here called spatial data). 
-   a.	We do this by clicking “download”. This creates a zip file. Open this Zip and copy all of the files into a folder on your desktop. We will be using this folder later. It will hold all our data. 
-   b.	Go back to the table view. The table currently shows years 2010-2017. For readability, remove the second and third columns. To do this, click on Modify Table and uncheck the first two rows. 
+   a.	We do this by clicking “download”. This creates a zip file. Open this Zip and copy all of the files into a folder on your desktop. We will be using this folder later. It will hold all our data.   
+   b.	Go back to the table view. The table currently shows years 2010-2017. For readability, remove the second and third columns. To do this, click on Modify Table and uncheck the first two rows.   
    
 ### 6.	Download the data
-   a.	Now hit download to get the data. Click on use the data. The data is now in a zip file. Open the zip file and copy the file called “Pep_2017_Pepannres_with_ann. Put it in the same folder as our spatial files. Open the file. You should see the following:
+   a.	Now hit download to get the data. Click on use the data. The data is now in a zip file. Open the zip file and copy the file called “Pep_2017_Pepannres_with_ann. Put it in the same folder as our spatial files. Open the file. You should see the following:  
  
  ![image](https://user-images.githubusercontent.com/37058499/64699078-0d89b680-d472-11e9-8197-2476de35e48d.png)
 
