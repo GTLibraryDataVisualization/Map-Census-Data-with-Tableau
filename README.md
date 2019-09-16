@@ -17,14 +17,12 @@ In this training we will be using American FactFinder (https://factfinder.census
    
    b. Under Advanced Search, click on SHOW ME ALL . 
    
-Note: This is the main page for Querying data. The four boxes on the left-hand side will allow us to filter the data to suit our needs. For this training we will be using data that consists of the median household income in Georgia by county and the population in Georgia by county 2012-2017. To do this:  
+    Note: This is the main page for Querying data. The four boxes on the left-hand side will allow us to filter the data to suit our needs. For this training we will be using data that consists of the median household income in Georgia by county and the population in Georgia by county 2012-2017. To do this:  
 
    c. click on Topics filter on the left top filter . 
    
    d. select People -> Basic Count/Estimate -> Resident Population . 
-   
-   (At this point you have successfully applied one filter. Now let's load georgraphies information) . 
-   
+      
    e. click on Georgraphies on the left fiter list . 
    
    f. on Select a Georghic Type: County-050 . 
@@ -59,15 +57,15 @@ b. on the pop-up box, click on SHOW MAP. Now you will get a map like below:
 
 <img width="600" alt="Screen Shot 2019-09-16 at 8 41 02 AM" src="https://user-images.githubusercontent.com/37058499/64958803-e1997700-d85d-11e9-9b56-7f7ffe0b200e.png">
 
-We are looking at a map that is very similar to our final product. So, why do we need to put this into tableau??   
+    We are looking at a map that is very similar to our final product. So, why do we need to put this into tableau??   
 
-The reason of that, and the goal of this workshop is:  
+    The reason of that, and the goal of this workshop is:  
 
-   •	create an interactive visualization with Tableau (the current view is static) . 
-   
-   •	customize the color, label and other details as you wish . 
-   
-   •	have the option of saving it on your local machine, embed to your presentation, publication or website . 
+       •	create an interactive visualization with Tableau (the current view is static) . 
+
+       •	customize the color, label and other details as you wish . 
+
+       •	have the option of saving it on your local machine, embed to your presentation, publication or website . 
    
 ### 5.	View the geographical data (here called spatial data). 
    a.	We do this by clicking “download”. This creates a zip file. Open this Zip and copy all of the files into a folder on your desktop. We will be using this folder later. It will hold all our data . 
@@ -84,7 +82,7 @@ The first column is something called GeoId. This will link to our spatial data f
 
 ![image](https://user-images.githubusercontent.com/37058499/64699157-2a25ee80-d472-11e9-9e60-6edfb7e287fb.png)
 
-This data is useful, but we do not need all of it. We only need median income. Once again, use the modify table tool. Once again, go into the file and delete the first and second row. Name it Income_Ga . 
+    This data is useful, but we do not need all of it. We only need median income. Once again, use the modify table tool. Once again, go into the file and delete the first and second row. Name it Income_Ga . 
 
 Now we should end up with two excel files (PopClean and IncomeClean) as well as all the spatial files . 
 
