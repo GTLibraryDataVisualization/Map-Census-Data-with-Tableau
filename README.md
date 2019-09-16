@@ -3,7 +3,7 @@
 The United States Census is one of the most widely used data sources in all of data science and data visualization. This training will run through the process of gathering, modifying, and visualizing census data. 
 End Product should look like this:
  
-   ![image](https://user-images.githubusercontent.com/37058499/64698457-ebdbff80-d470-11e9-9570-babaa0cfd6e1.png)
+<img width="800" alt="Screen Shot 2019-09-16 at 11 21 32 AM" src="https://user-images.githubusercontent.com/37058499/64970845-963e9300-d874-11e9-930f-4a771046b926.png">
 
 ## STEP ONE: Gathering Data
 
@@ -11,7 +11,7 @@ In this training we will be using American FactFinder (https://factfinder.census
 
 ### 1.	Retrieve Census Data 
  
- ![image](https://user-images.githubusercontent.com/37058499/64698820-93f1c880-d471-11e9-9be7-8c5fa9a07bc1.png)
+ <img width="800" alt="Screen Shot 2019-09-16 at 11 25 33 AM" src="https://user-images.githubusercontent.com/37058499/64970903-ba01d900-d874-11e9-86af-8dcd61d564e0.png">
 
    a. When you are on American FactFinder website, click on Advanced Search . 
    
@@ -34,21 +34,21 @@ Note: This is the main page for Querying data. The four boxes on the left-hand s
    h. on Select one or more geographic areas and click Add to Your Selections: All Counties in Georgia . 
  Now you should end up with the following:   
  
- <img width="1049" alt="Screen Shot 2019-09-16 at 8 26 01 AM" src="https://user-images.githubusercontent.com/37058499/64957972-15739d00-d85c-11e9-8097-aa1ada6d2ffb.png">
+ <img width="800" alt="Screen Shot 2019-09-16 at 8 26 01 AM" src="https://user-images.githubusercontent.com/37058499/64957972-15739d00-d85c-11e9-8097-aa1ada6d2ffb.png">
 
 ### 2.	Select the right dataset on the result list
 Click on the second dataset. It is titled Annual Estimates of Resident Population: April 1,2010 to July 1,2018. You should see something like the following:
  
- <img width="1273" alt="Screen Shot 2019-09-16 at 8 33 13 AM" src="https://user-images.githubusercontent.com/37058499/64958282-bd896600-d85c-11e9-8b8d-ff3b683fc87d.png">
+ <img width="800" alt="Screen Shot 2019-09-16 at 8 33 13 AM" src="https://user-images.githubusercontent.com/37058499/64958282-bd896600-d85c-11e9-8b8d-ff3b683fc87d.png">
 
 ### 3. Modify the table
    a. on the top left, click on the Modify Table link. See screenshot below:  
 
-<img width="1290" alt="Screen Shot 2019-09-16 at 8 10 57 AM" src="https://user-images.githubusercontent.com/37058499/64957121-30451200-d85a-11e9-98d3-d566e0e497db.png">
+<img width="800" alt="Screen Shot 2019-09-16 at 8 10 57 AM" src="https://user-images.githubusercontent.com/37058499/64957121-30451200-d85a-11e9-98d3-d566e0e497db.png">
 
    b. now you should see the screen below:    
 
-<img width="1383" alt="Screen Shot 2019-09-16 at 8 11 11 AM" src="https://user-images.githubusercontent.com/37058499/64957127-33d89900-d85a-11e9-8cd1-ef40eca691f4.png">
+<img width="800" alt="Screen Shot 2019-09-16 at 8 11 11 AM" src="https://user-images.githubusercontent.com/37058499/64957127-33d89900-d85a-11e9-8cd1-ef40eca691f4.png">
 
    c. on top of the page, click on Download to download the dataset . 
    
@@ -57,7 +57,7 @@ Click on the second dataset. It is titled Annual Estimates of Resident Populatio
    
 b. on the pop-up box, click on SHOW MAP. Now you will get a map like below:  
 
-<img width="1655" alt="Screen Shot 2019-09-16 at 8 41 02 AM" src="https://user-images.githubusercontent.com/37058499/64958803-e1997700-d85d-11e9-9b56-7f7ffe0b200e.png">
+<img width="800" alt="Screen Shot 2019-09-16 at 8 41 02 AM" src="https://user-images.githubusercontent.com/37058499/64958803-e1997700-d85d-11e9-9b56-7f7ffe0b200e.png">
 
 We are looking at a map that is very similar to our final product. So, why do we need to put this into tableau??   
 
@@ -132,18 +132,24 @@ Now we should end up with two excel files (PopClean and IncomeClean) as well as 
    
    d.	Change the Opacity to 100% . 
    
-![image](https://user-images.githubusercontent.com/37058499/64699328-8ab52b80-d472-11e9-9b35-ce21c0ddca62.png)
+ <img width="1279" alt="Screen Shot 2019-09-16 at 11 05 43 AM" src="https://user-images.githubusercontent.com/37058499/64969760-845bf080-d872-11e9-88ab-30de90f97b64.png">
 
 ### 6.	Visualization - create a tooltip to show the household population
-   a.	Create a new sheet, add name to columns and the years 2010-2017 on rows . 
+   a.	Create a new sheet, add Georgraphy from PopClean to columns and the years 2010-2017 on rows/canvas . 
    
+   <img width="1235" alt="Screen Shot 2019-09-16 at 11 11 32 AM" src="https://user-images.githubusercontent.com/37058499/64970229-60e57580-d873-11e9-9d20-a71895f8d4ce.png">
+
    b.	Select the side by side bars graph on the show me button . 
    
-   ![image](https://user-images.githubusercontent.com/37058499/64699362-9b65a180-d472-11e9-95db-0fb810cba20c.png)
+ <img width="1235" alt="Screen Shot 2019-09-16 at 11 12 08 AM" src="https://user-images.githubusercontent.com/37058499/64970306-7e1a4400-d873-11e9-8652-8c5ce5ea6a68.png">
 
    c.	go back to the map, click tooltip and insert sheet2. Filter on<Name> and expand the size of the viz in tooltip . 
  
+  <img width="1228" alt="Screen Shot 2019-09-16 at 11 18 05 AM" src="https://user-images.githubusercontent.com/37058499/64970714-5aa3c900-d874-11e9-9985-035aa4d9091a.png">
+ 
 ### 7.	Visualization – change the map layer
-   a.	Click on Map on the top right of the menu and select the dark theme.
+   a.	Click on Map on the top right of the menu and select the dark theme . 
+   
+ <img width="1228" alt="Screen Shot 2019-09-16 at 11 20 47 AM" src="https://user-images.githubusercontent.com/37058499/64970770-70b18980-d874-11e9-8132-1f8f70ef07e8.png">
 
  
