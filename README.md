@@ -11,7 +11,7 @@ In this training we will be using American FactFinder (https://factfinder.census
 
 ### 1.	Retrieve Census Data 
  
- <img width="800" alt="Screen Shot 2019-09-16 at 11 25 33 AM" src="https://user-images.githubusercontent.com/37058499/64970903-ba01d900-d874-11e9-86af-8dcd61d564e0.png">
+ <img width="600" alt="Screen Shot 2019-09-16 at 11 25 33 AM" src="https://user-images.githubusercontent.com/37058499/64970903-ba01d900-d874-11e9-86af-8dcd61d564e0.png">
 
    a. When you are on American FactFinder website, click on Advanced Search . 
    
@@ -34,21 +34,21 @@ Note: This is the main page for Querying data. The four boxes on the left-hand s
    h. on Select one or more geographic areas and click Add to Your Selections: All Counties in Georgia . 
  Now you should end up with the following:   
  
- <img width="800" alt="Screen Shot 2019-09-16 at 8 26 01 AM" src="https://user-images.githubusercontent.com/37058499/64957972-15739d00-d85c-11e9-8097-aa1ada6d2ffb.png">
+ <img width="600" alt="Screen Shot 2019-09-16 at 8 26 01 AM" src="https://user-images.githubusercontent.com/37058499/64957972-15739d00-d85c-11e9-8097-aa1ada6d2ffb.png">
 
 ### 2.	Select the right dataset on the result list
 Click on the second dataset. It is titled Annual Estimates of Resident Population: April 1,2010 to July 1,2018. You should see something like the following:
  
- <img width="800" alt="Screen Shot 2019-09-16 at 8 33 13 AM" src="https://user-images.githubusercontent.com/37058499/64958282-bd896600-d85c-11e9-8b8d-ff3b683fc87d.png">
+ <img width="600" alt="Screen Shot 2019-09-16 at 8 33 13 AM" src="https://user-images.githubusercontent.com/37058499/64958282-bd896600-d85c-11e9-8b8d-ff3b683fc87d.png">
 
 ### 3. Modify the table
    a. on the top left, click on the Modify Table link. See screenshot below:  
 
-<img width="800" alt="Screen Shot 2019-09-16 at 8 10 57 AM" src="https://user-images.githubusercontent.com/37058499/64957121-30451200-d85a-11e9-98d3-d566e0e497db.png">
+<img width="600" alt="Screen Shot 2019-09-16 at 8 10 57 AM" src="https://user-images.githubusercontent.com/37058499/64957121-30451200-d85a-11e9-98d3-d566e0e497db.png">
 
    b. now you should see the screen below:    
 
-<img width="800" alt="Screen Shot 2019-09-16 at 8 11 11 AM" src="https://user-images.githubusercontent.com/37058499/64957127-33d89900-d85a-11e9-8cd1-ef40eca691f4.png">
+<img width="600" alt="Screen Shot 2019-09-16 at 8 11 11 AM" src="https://user-images.githubusercontent.com/37058499/64957127-33d89900-d85a-11e9-8cd1-ef40eca691f4.png">
 
    c. on top of the page, click on Download to download the dataset . 
    
@@ -57,7 +57,7 @@ Click on the second dataset. It is titled Annual Estimates of Resident Populatio
    
 b. on the pop-up box, click on SHOW MAP. Now you will get a map like below:  
 
-<img width="800" alt="Screen Shot 2019-09-16 at 8 41 02 AM" src="https://user-images.githubusercontent.com/37058499/64958803-e1997700-d85d-11e9-9b56-7f7ffe0b200e.png">
+<img width="600" alt="Screen Shot 2019-09-16 at 8 41 02 AM" src="https://user-images.githubusercontent.com/37058499/64958803-e1997700-d85d-11e9-9b56-7f7ffe0b200e.png">
 
 We are looking at a map that is very similar to our final product. So, why do we need to put this into tableau??   
 
@@ -101,27 +101,27 @@ Now we should end up with two excel files (PopClean and IncomeClean) as well as 
 ### 3.	Union data sheets (essentially a JOIN statement)
    a.	Add PopClean.csv file. To do this, go up to the Add button above the file you just added:  
    
-   <img width="1181" alt="Screen Shot 2019-09-16 at 9 04 34 AM" src="https://user-images.githubusercontent.com/37058499/64960543-75b90d80-d861-11e9-8011-77009b7d932d.png">
+   <img width="600" alt="Screen Shot 2019-09-16 at 9 04 34 AM" src="https://user-images.githubusercontent.com/37058499/64960543-75b90d80-d861-11e9-8011-77009b7d932d.png">
 
     If we want to combine two datasets by one variable, it is called Unoin in Tableau. To do this, we need to tell two tables how we want to union them . 
    b.	Select Geo Id = Id . 
 
- <img width="1087" alt="Screen Shot 2019-09-16 at 10 53 37 AM" src="https://user-images.githubusercontent.com/37058499/64968809-c421d880-d870-11e9-963a-1e287ef3c5f6.png">
+ <img width="600" alt="Screen Shot 2019-09-16 at 10 53 37 AM" src="https://user-images.githubusercontent.com/37058499/64968809-c421d880-d870-11e9-963a-1e287ef3c5f6.png">
 
    c.	Add the income data. Once again select add CSV and add IncomeClean.csv. You should end up with the following.
    
- <img width="1134" alt="Screen Shot 2019-09-16 at 10 54 21 AM" src="https://user-images.githubusercontent.com/37058499/64968859-dd2a8980-d870-11e9-9d62-c4c87dd1e950.png">
+ <img width="600" alt="Screen Shot 2019-09-16 at 10 54 21 AM" src="https://user-images.githubusercontent.com/37058499/64968859-dd2a8980-d870-11e9-9d62-c4c87dd1e950.png">
 
 ### 4.	Visualization – Create a Map
    a.	under measures and 05000.shp, double click on Geometry . 
    
    b.	The state of Georgia will pop up . 
    
-   <img width="1403" alt="Screen Shot 2019-09-16 at 10 59 30 AM" src="https://user-images.githubusercontent.com/37058499/64969032-2975c980-d871-11e9-9f31-4e91a997fac3.png">
+   <img width="600" alt="Screen Shot 2019-09-16 at 10 59 30 AM" src="https://user-images.githubusercontent.com/37058499/64969032-2975c980-d871-11e9-9f31-4e91a997fac3.png">
 
    c.	Drag Geography from PopClean onto the marks . 
    
- <img width="1279" alt="Screen Shot 2019-09-16 at 11 02 23 AM" src="https://user-images.githubusercontent.com/37058499/64969317-adc84c80-d871-11e9-935e-8b8b0ebd9bb5.png">
+ <img width="600" alt="Screen Shot 2019-09-16 at 11 02 23 AM" src="https://user-images.githubusercontent.com/37058499/64969317-adc84c80-d871-11e9-935e-8b8b0ebd9bb5.png">
  
 ### 5.	Visualization - Overlay household Income on the map
    a.	Drag Mean income from the IncomeClean.csv file and put it on color . 
@@ -132,24 +132,24 @@ Now we should end up with two excel files (PopClean and IncomeClean) as well as 
    
    d.	Change the Opacity to 100% . 
    
- <img width="1279" alt="Screen Shot 2019-09-16 at 11 05 43 AM" src="https://user-images.githubusercontent.com/37058499/64969760-845bf080-d872-11e9-88ab-30de90f97b64.png">
+ <img width="600" alt="Screen Shot 2019-09-16 at 11 05 43 AM" src="https://user-images.githubusercontent.com/37058499/64969760-845bf080-d872-11e9-88ab-30de90f97b64.png">
 
 ### 6.	Visualization - create a tooltip to show the household population
    a.	Create a new sheet, add Georgraphy from PopClean to columns and the years 2010-2017 on rows/canvas . 
    
-   <img width="1235" alt="Screen Shot 2019-09-16 at 11 11 32 AM" src="https://user-images.githubusercontent.com/37058499/64970229-60e57580-d873-11e9-9d20-a71895f8d4ce.png">
+   <img width="600" alt="Screen Shot 2019-09-16 at 11 11 32 AM" src="https://user-images.githubusercontent.com/37058499/64970229-60e57580-d873-11e9-9d20-a71895f8d4ce.png">
 
    b.	Select the side by side bars graph on the show me button . 
    
- <img width="1235" alt="Screen Shot 2019-09-16 at 11 12 08 AM" src="https://user-images.githubusercontent.com/37058499/64970306-7e1a4400-d873-11e9-8652-8c5ce5ea6a68.png">
+ <img width="600" alt="Screen Shot 2019-09-16 at 11 12 08 AM" src="https://user-images.githubusercontent.com/37058499/64970306-7e1a4400-d873-11e9-8652-8c5ce5ea6a68.png">
 
    c.	go back to the map, click tooltip and insert sheet2. Filter on<Name> and expand the size of the viz in tooltip . 
  
-  <img width="1228" alt="Screen Shot 2019-09-16 at 11 18 05 AM" src="https://user-images.githubusercontent.com/37058499/64970714-5aa3c900-d874-11e9-9985-035aa4d9091a.png">
+  <img width="600" alt="Screen Shot 2019-09-16 at 11 18 05 AM" src="https://user-images.githubusercontent.com/37058499/64970714-5aa3c900-d874-11e9-9985-035aa4d9091a.png">
  
 ### 7.	Visualization – change the map layer
    a.	Click on Map on the top right of the menu and select the dark theme . 
    
- <img width="1228" alt="Screen Shot 2019-09-16 at 11 20 47 AM" src="https://user-images.githubusercontent.com/37058499/64970770-70b18980-d874-11e9-8132-1f8f70ef07e8.png">
+ <img width="600" alt="Screen Shot 2019-09-16 at 11 20 47 AM" src="https://user-images.githubusercontent.com/37058499/64970770-70b18980-d874-11e9-8132-1f8f70ef07e8.png">
 
  
