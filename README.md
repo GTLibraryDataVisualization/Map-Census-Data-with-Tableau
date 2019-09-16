@@ -106,20 +106,22 @@ Now we should end up with two excel files (PopClean and IncomeClean) as well as 
     If we want to combine two datasets by one variable, it is called Unoin in Tableau. To do this, we need to tell two tables how we want to union them . 
    b.	Select Geo Id = Id . 
 
-   ![image](https://user-images.githubusercontent.com/37058499/64699210-49bd1700-d472-11e9-8b42-4bfbfb5f0aee.png)
+ <img width="1087" alt="Screen Shot 2019-09-16 at 10 53 37 AM" src="https://user-images.githubusercontent.com/37058499/64968809-c421d880-d870-11e9-963a-1e287ef3c5f6.png">
 
    c.	Add the income data. Once again select add CSV and add IncomeClean.csv. You should end up with the following.
    
- ![image](https://user-images.githubusercontent.com/37058499/64699261-69543f80-d472-11e9-8cd8-8210dafb9aeb.png)
+ <img width="1134" alt="Screen Shot 2019-09-16 at 10 54 21 AM" src="https://user-images.githubusercontent.com/37058499/64968859-dd2a8980-d870-11e9-9d62-c4c87dd1e950.png">
 
 ### 4.	Visualization – Create a Map
    a.	under measures and 05000.shp, double click on Geometry . 
    
    b.	The state of Georgia will pop up . 
    
+   <img width="1403" alt="Screen Shot 2019-09-16 at 10 59 30 AM" src="https://user-images.githubusercontent.com/37058499/64969032-2975c980-d871-11e9-9f31-4e91a997fac3.png">
+
    c.	Drag Geography from PopClean onto the marks . 
    
-![image](https://user-images.githubusercontent.com/37058499/64699287-76712e80-d472-11e9-878f-58e8efd515c1.png)
+ <img width="1279" alt="Screen Shot 2019-09-16 at 11 02 23 AM" src="https://user-images.githubusercontent.com/37058499/64969317-adc84c80-d871-11e9-935e-8b8b0ebd9bb5.png">
  
 ### 5.	Visualization - Overlay household Income on the map
    a.	Drag Mean income from the IncomeClean.csv file and put it on color . 
