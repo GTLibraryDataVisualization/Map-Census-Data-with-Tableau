@@ -80,13 +80,13 @@ The reason of that, and the goal of this workshop is:
  ![image](https://user-images.githubusercontent.com/37058499/64699078-0d89b680-d472-11e9-8197-2476de35e48d.png)
 
 ### 7.	Clean the data 
-The first column is something called GeoId. This will link to our spatial data from earlier. In order to make this more Readable. Delete the 1st row and 2nd columns. The 1st row are repetitive headers and the 2nd column is spatial data we do not need for this exercise. Save and rename the file as Pop_GA.  
+The first column is something called GeoId. This will link to our spatial data from earlier. In order to make this more Readable. Delete the 1st row and 2nd columns. The 1st row are repetitive headers and the 2nd column is spatial data we do not need for this exercise. Save and rename the file as PopClean.  
 
 ![image](https://user-images.githubusercontent.com/37058499/64699157-2a25ee80-d472-11e9-9e60-6edfb7e287fb.png)
 
 This data is useful, but we do not need all of it. We only need median income. Once again, use the modify table tool. Once again, go into the file and delete the first and second row. Name it Income_Ga . 
 
-Now we should end up with two excel files (Pop_Ga and Income_Ga) as well as all the spatial files . 
+Now we should end up with two excel files (PopClean and IncomeClean) as well as all the spatial files . 
 
 
 ## STEP TWO: Create Interactive Visualization in Tableau
@@ -99,7 +99,7 @@ Now we should end up with two excel files (Pop_Ga and Income_Ga) as well as all 
    b.	Add the 05000.shp file (drag and drop it on the top white space) . 
    
 ### 3.	Union data sheets (essentially a JOIN statement)
-   a.	Add Pop_Ga.csv file. To do this, go up to the Add button above the file you just added:  
+   a.	Add PopClean.csv file. To do this, go up to the Add button above the file you just added:  
    
    <img width="1181" alt="Screen Shot 2019-09-16 at 9 04 34 AM" src="https://user-images.githubusercontent.com/37058499/64960543-75b90d80-d861-11e9-8011-77009b7d932d.png">
 
@@ -108,7 +108,7 @@ Now we should end up with two excel files (Pop_Ga and Income_Ga) as well as all 
 
    ![image](https://user-images.githubusercontent.com/37058499/64699210-49bd1700-d472-11e9-8b42-4bfbfb5f0aee.png)
 
-   c.	Add the income data. Once again select add CSV and add Income_Ga.csv. You should end up with the following.
+   c.	Add the income data. Once again select add CSV and add IncomeClean.csv. You should end up with the following.
    
  ![image](https://user-images.githubusercontent.com/37058499/64699261-69543f80-d472-11e9-8cd8-8210dafb9aeb.png)
 
@@ -117,12 +117,12 @@ Now we should end up with two excel files (Pop_Ga and Income_Ga) as well as all 
    
    b.	The state of Georgia will pop up . 
    
-   c.	Drag Geography from Pop_Ga onto the marks . 
+   c.	Drag Geography from PopClean onto the marks . 
    
 ![image](https://user-images.githubusercontent.com/37058499/64699287-76712e80-d472-11e9-878f-58e8efd515c1.png)
  
 ### 5.	Visualization - Overlay household Income on the map
-   a.	Drag Mean income from the Georgia_income.csv file and put it on color . 
+   a.	Drag Mean income from the IncomeClean.csv file and put it on color . 
    
    b.	Change the colors by hitting color and edit color . 
    
