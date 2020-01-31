@@ -49,6 +49,8 @@ Click on the second dataset. It is titled Annual Estimates of Resident Populatio
 <img width="600" alt="Screen Shot 2019-09-16 at 8 11 11 AM" src="https://user-images.githubusercontent.com/37058499/64957127-33d89900-d85a-11e9-8cd1-ef40eca691f4.png">
 
    c. on top of the page, click on Download to download the dataset . 
+   d. after downloading, click "Hide Table Tools" to fold the modify options.
+   
    
 ### 4.	Gather the spatial data
    a.	on the top right click on Create a Map. (American FactFinder will ask you to click on a data. For this case it does not really matter which value to click on, but I will select Population Estimate 2018) . 
