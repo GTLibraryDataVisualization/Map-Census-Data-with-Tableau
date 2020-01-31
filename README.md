@@ -17,8 +17,6 @@ In this training we will be using American FactFinder (https://factfinder.census
    
    b. Under Advanced Search, click on SHOW ME ALL . 
    
-    Note: This is the main page for Querying data. The four boxes on the left-hand side will allow us to filter the data to suit our needs. For this training we will be using data that consists of the median household income in Georgia by county and the population in Georgia by county 2012-2017. To do this:  
-
    c. click on Topics filter on the left top filter . 
    
    d. select People -> Basic Count/Estimate -> Resident Population . 
@@ -72,10 +70,10 @@ b. on the pop-up box, click on SHOW MAP. Now you will get a map like below:
 ### 5.	View the geographical data (here called spatial data). 
    a.	We do this by clicking “download”. This creates a zip file. Open this Zip and copy all of the files into a folder on your desktop. We will be using this folder later. It will hold all our data . 
    
-   b.	Go back to the table view. The table currently shows years 2010-2017. For readability, remove the second and third columns. To do this, click on Modify Table and uncheck the first two rows . 
+   b.	Go back to the table view. The table currently shows years 2010-2018. For readability, remove the second and third columns. To do this, click on Modify Table and uncheck the first two rows . 
    
 ### 6.	Download the data
-   a.	Now hit download to get the data. Click on use the data. The data is now in a zip file. Open the zip file and copy the file called “Pep_2017_Pepannres_with_ann. Put it in the same folder as our spatial files. Open the file. You should see the following:  
+   a.	Now hit download to get the data. Click on use the data. The data is now in a zip file. Open the zip file and copy the file called “Pep_2018_Pepannres_with_ann. Put it in the same folder as our spatial files. Open the file. You should see the following:  
  
  ![image](https://user-images.githubusercontent.com/37058499/64699078-0d89b680-d472-11e9-8197-2476de35e48d.png)
 
