@@ -4,14 +4,16 @@ For this workshop we will be using population data, median household income data
 2.	The page will prompt you with a New Project box. Search the location Georgia here.
 3.	Then choose #Population and Median Household Income
 4.	Create Project
- 
+![image](https://user-images.githubusercontent.com/37058499/84200477-e26ddb00-aa74-11ea-92ea-c0abde7b7a6d.png)
+
 5.	Name project: (on the top left) double click Current Project: New Project -> rename it in the pop-up box
 6.	Add extra years of Population and Median Household Income to the table: 
 a.	Comparison Table -> Population Data -> 2018-2017/2016 -> Choose Population
 b.	Income -> 2018/2017/2016 ->Choose Median Household Income
+ ![image](https://user-images.githubusercontent.com/37058499/84200433-cf5b0b00-aa74-11ea-964c-d06ec909f17c.png)
  
 c.	After added, the final view should look like this:
- 
+ ![image](https://user-images.githubusercontent.com/37058499/84200655-2cef5780-aa75-11ea-9870-9ab8cd1fc864.png)
 
 7.	On the right-side of the window -> New View  
 8.	Ranking Table -> Create
