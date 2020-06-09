@@ -1,153 +1,72 @@
-# Map Census Data with Tableau
+For this workshop we will be using population data, median household income data and map data. The tool we will be using to collect all data is SimplyAnalytics.
 
-The United States Census is one of the most widely used data sources in all of data science and data visualization. This training will run through the process of gathering, modifying, and visualizing census data. 
-End Product should look like this:
+1.	Log into SimplyAnalytics as a guest from the library website: http://libguides.gatech.edu/az.php?a=s
+2.	The page will prompt you with a New Project box. Search the location Georgia here.
+3.	Then choose #Population and Median Household Income
+4.	Create Project
  
-<img width="800" alt="Screen Shot 2019-09-16 at 11 21 32 AM" src="https://user-images.githubusercontent.com/37058499/64970845-963e9300-d874-11e9-930f-4a771046b926.png">
-
-## STEP ONE: Gathering Data
-
-In this training we will be using American FactFinder (https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml). American FactFinder is the best source of all Census data. The website allows you to query data to meet almost all of your needs.  
-
-### 1.	Retrieve Census Data 
+5.	Name project: (on the top left) double click Current Project: New Project -> rename it in the pop-up box
+6.	Add extra years of Population and Median Household Income to the table: 
+a.	Comparison Table -> Population Data -> 2018-2017/2016 -> Choose Population
+b.	Income -> 2018/2017/2016 ->Choose Median Household Income
  
- <img width="600" alt="Screen Shot 2019-09-16 at 11 25 33 AM" src="https://user-images.githubusercontent.com/37058499/64970903-ba01d900-d874-11e9-86af-8dcd61d564e0.png">
-
-   a. When you are on American FactFinder website, click on Advanced Search . 
-   
-   b. Under Advanced Search, click on SHOW ME ALL . 
-   
-   c. click on Topics filter on the left top filter . 
-   
-   d. select People -> Basic Count/Estimate -> Resident Population . 
-      
-   e. click on Georgraphies on the left fiter list . 
-   
-   f. on Select a Georghic Type: County-050 . 
-   
-   g. on Select a State: Georgia . 
-   
-   h. on Select one or more geographic areas and click Add to Your Selections: All Counties in Georgia . 
- Now you should end up with the following:   
+c.	After added, the final view should look like this:
  
- <img width="600" alt="Screen Shot 2019-09-16 at 8 26 01 AM" src="https://user-images.githubusercontent.com/37058499/64957972-15739d00-d85c-11e9-8097-aa1ada6d2ffb.png">
 
-### 2.	Select the right dataset on the result list
-Click on the second dataset. It is titled Annual Estimates of Resident Population: April 1,2010 to July 1,2018. You should see something like the following:
+7.	On the right-side of the window -> New View  
+8.	Ranking Table -> Create
  
- <img width="600" alt="Screen Shot 2019-09-16 at 8 33 13 AM" src="https://user-images.githubusercontent.com/37058499/64958282-bd896600-d85c-11e9-8b8d-ff3b683fc87d.png">
-
-### 3. Modify the table
-   a. on the top left, click on the Modify Table link. See screenshot below:  
-
-<img width="600" alt="Screen Shot 2019-09-16 at 8 10 57 AM" src="https://user-images.githubusercontent.com/37058499/64957121-30451200-d85a-11e9-98d3-d566e0e497db.png">
-
-   b. now you should see the screen below:    
-
-<img width="600" alt="Screen Shot 2019-09-16 at 8 11 11 AM" src="https://user-images.githubusercontent.com/37058499/64957127-33d89900-d85a-11e9-8cd1-ef40eca691f4.png">
-
-   c. on top of the page, click on Download to download the dataset . 
-   d. after downloading, click "Hide Table Tools" to fold the modify options.
-   
-   
-### 4.	Gather the spatial data
-   a.	on the top right click on Create a Map. (American FactFinder will ask you to click on a data. For this case it does not really matter which value to click on, but I will select Population Estimate 2018) . 
-   
-b. on the pop-up box, click on SHOW MAP. Now you will get a map like below:  
-
-<img width="600" alt="Screen Shot 2019-09-16 at 8 41 02 AM" src="https://user-images.githubusercontent.com/37058499/64958803-e1997700-d85d-11e9-9b56-7f7ffe0b200e.png">
-
-    We are looking at a map that is very similar to our final product. So, why do we need to put this into tableau??   
-
-    The reason of that, and the goal of this workshop is:  
-
-       •	create an interactive visualization with Tableau (the current view is static) . 
-
-       •	customize the color, label and other details as you wish . 
-
-       •	have the option of saving it on your local machine, embed to your presentation, publication or website . 
-   
-### 5.	View the geographical data (here called spatial data). 
-   a.	We do this by clicking “download”. This creates a zip file. Open this Zip and copy all of the files into a folder on your desktop. We will be using this folder later. It will hold all our data . 
-   
-   b.	Go back to the table view. The table currently shows years 2010-2018. For readability, remove the second and third columns. To do this, click on Modify Table and uncheck the first two rows . 
-   
-### 6.	Download the data
-   a.	Now hit download to get the data. Click on use the data. The data is now in a zip file. Open the zip file and copy the file called “Pep_2018_Pepannres_with_ann. Put it in the same folder as our spatial files. Open the file. You should see the following:  
+9.	Click on the new Ranking tab generated
  
- ![image](https://user-images.githubusercontent.com/37058499/64699078-0d89b680-d472-11e9-8197-2476de35e48d.png)
-
-### 7.	Clean the data 
-The first column is something called GeoId. This will link to our spatial data from earlier. In order to make this more Readable. Delete the 1st row and 2nd columns. The 1st row are repetitive headers and the 2nd column is spatial data we do not need for this exercise. Save and rename the file as PopClean.  
-
-![image](https://user-images.githubusercontent.com/37058499/64699157-2a25ee80-d472-11e9-9e60-6edfb7e287fb.png)
-
-    This data is useful, but we do not need all of it. We only need median income. Once again, use the modify table tool. Once again, go into the file and delete the first and second row. Name it Income_Ga . 
-
-Now we should end up with two excel files (PopClean and IncomeClean) as well as all the spatial files . 
-
-
-## STEP TWO: Create Interactive Visualization in Tableau
-
-### 1.	Open a new workbook in Tableau
-
-### 2.	Import data 
-   a.	Go to data Source add the spatial file . 
-   
-   b.	Add the 05000.shp file (drag and drop it on the top white space) . 
-   
-### 3.	Union data sheets (essentially a JOIN statement)
-   a.	Add PopClean.csv file. To do this, go up to the Add button above the file you just added:  
-   
-   <img width="600" alt="Screen Shot 2019-09-16 at 9 04 34 AM" src="https://user-images.githubusercontent.com/37058499/64960543-75b90d80-d861-11e9-8011-77009b7d932d.png">
-
-    If we want to combine two datasets by one variable, it is called Unoin in Tableau. To do this, we need to tell two tables how we want to union them . 
-   b.	Select Geo Id = Id . 
-
- <img width="600" alt="Screen Shot 2019-09-16 at 10 53 37 AM" src="https://user-images.githubusercontent.com/37058499/64968809-c421d880-d870-11e9-963a-1e287ef3c5f6.png">
-
-   c.	Add the income data. Once again select add CSV and add IncomeClean.csv. You should end up with the following.
-   
- <img width="600" alt="Screen Shot 2019-09-16 at 10 54 21 AM" src="https://user-images.githubusercontent.com/37058499/64968859-dd2a8980-d870-11e9-9d62-c4c87dd1e950.png">
-
-### 4.	Visualization – Create a Map
-   a.	under measures and 05000.shp, double click on Geometry . 
-   
-   b.	The state of Georgia will pop up . 
-   
-   <img width="600" alt="Screen Shot 2019-09-16 at 10 59 30 AM" src="https://user-images.githubusercontent.com/37058499/64969032-2975c980-d871-11e9-9f31-4e91a997fac3.png">
-
-   c.	Drag Geography from PopClean onto the marks . 
-   
- <img width="600" alt="Screen Shot 2019-09-16 at 11 02 23 AM" src="https://user-images.githubusercontent.com/37058499/64969317-adc84c80-d871-11e9-935e-8b8b0ebd9bb5.png">
+10.	Change the variables on top: top 100 / Counties
  
-### 5.	Visualization - Overlay household Income on the map
-   a.	Drag Mean income from the IncomeClean.csv file and put it on color . 
-   
-   b.	Change the colors by hitting color and edit color . 
-   
-   c.	Select Red green diverging . 
-   
-   d.	Change the Opacity to 100% . 
-   
- <img width="600" alt="Screen Shot 2019-09-16 at 11 05 43 AM" src="https://user-images.githubusercontent.com/37058499/64969760-845bf080-d872-11e9-88ab-30de90f97b64.png">
-
-### 6.	Visualization - create a tooltip to show the household population
-   a.	Create a new sheet, add Georgraphy from PopClean to columns and the years 2010-2017 on rows/canvas . 
-   
-   <img width="600" alt="Screen Shot 2019-09-16 at 11 11 32 AM" src="https://user-images.githubusercontent.com/37058499/64970229-60e57580-d873-11e9-9d20-a71895f8d4ce.png">
-
-   b.	Select the side by side bars graph on the show me button . 
-   
- <img width="600" alt="Screen Shot 2019-09-16 at 11 12 08 AM" src="https://user-images.githubusercontent.com/37058499/64970306-7e1a4400-d873-11e9-8652-8c5ce5ea6a68.png">
-
-   c.	go back to the map, click tooltip and insert sheet2. Filter on<Name> and expand the size of the viz in tooltip . 
+11.	Export
  
-  <img width="600" alt="Screen Shot 2019-09-16 at 11 18 05 AM" src="https://user-images.githubusercontent.com/37058499/64970714-5aa3c900-d874-11e9-9985-035aa4d9091a.png">
+12.	Fetch map data
  
-### 7.	Visualization – change the map layer
-   a.	Click on Map on the top right of the menu and select the dark theme . 
-   
- <img width="600" alt="Screen Shot 2019-09-16 at 11 20 47 AM" src="https://user-images.githubusercontent.com/37058499/64970770-70b18980-d874-11e9-8132-1f8f70ef07e8.png">
+13.	With the variables, SimplyAnalytics will generate the map below.
+ 
+14.	Export shapefile. It will be emailed to you after you fill out the form.
+ 
 
+
+Tableau Visualization
+1.	Import Data
+a.	Import Excel data
+ 
+b.	Import Shapefile
+ 
+
+2.	Join two tables by name (county names)
+ 
+
+3.	After the data is joint, switch to a sheet to create your visualization! 
+4.	Drag and drop Geometry on the sheet
+ 
+5.	Drag and drop name to the map so that now if you hover over on the map you will be able to see individual counties highlighted.
+ 
+6.	Drag and drop Median Household Income 2019 on color tab under marks so that the map is colored by the value of the 2019 median income.
+ 
+7.	Customize the map color: click on Color, and then on the pop-up box click on Edit Colors, click on the drop-down button behind Palette (Automatic) -> choose the color palette you like from the drop-down options.Click OK when done.
+ 
+8.	Now you have finished creating the first frame of the map. Go down to the bottom of the page and click on the the tab on the right side of “sheet 1” to create a second sheet.
+  
+9.	Drag and drop name to the Columns.
+ 
+10.	Drag and drop Measure Values into Rows. Then all variables will appear under the marks. Drag and drop the unwanted once out of the space. Now you should have Population 2016-2019 data under measure values only.
+ 
+11.	Drag and drop Measure names into Columns so that all stacked bars are shifted side by side.
+ 
+12.	Drag and drop Measure Values on Color so that all bars are colored by its values.
+ 
+13.	To have all values showing on top of the bars, drag and drop Measure Values on Label under Marks.
+ 
+14.	Now we have completed the second sheet. Go back to the first sheet and use Tooltip to insert it. 
+Tooltip -> Insert on the tip right of the edit box -> Sheet 2 -> OK
+ 
+15.	 To change the background map to a dark mode, go to Map -> Map Layers.  
+
+16.	On the left sidebar, change the background style to Dark.
+ 
+17.	Your final map should look like below:
  
