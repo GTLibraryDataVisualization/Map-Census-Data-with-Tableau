@@ -8,8 +8,6 @@
 3).	Then choose #Population and Median Household Income
 
 4).	Create Project
-
-   ![image](https://user-images.githubusercontent.com/37058499/84200477-e26ddb00-aa74-11ea-92ea-c0abde7b7a6d.png)
    
    ![image](https://user-images.githubusercontent.com/37058499/84204262-de43bc80-aa78-11ea-9ad1-1d2a28c2324d.png)
 
