@@ -10,6 +10,9 @@
 4).	Create Project
 
    ![image](https://user-images.githubusercontent.com/37058499/84200477-e26ddb00-aa74-11ea-92ea-c0abde7b7a6d.png)
+   
+   ![image](https://user-images.githubusercontent.com/37058499/84204262-de43bc80-aa78-11ea-9ad1-1d2a28c2324d.png)
+
 
 5).	Name project: (on the top left) double click Current Project: New Project -> rename it in the pop-up box
 
@@ -92,22 +95,42 @@ b.	Import Shapefile
 
 8.	Now you have finished creating the first frame of the map. Go down to the bottom of the page and click on the the tab on the right side of “sheet 1” to create a second sheet.
   
+  ![image](https://user-images.githubusercontent.com/37058499/84203899-3c23d480-aa78-11ea-8d3a-4d99cea0c71a.png)
+
 9.	Drag and drop name to the Columns.
  
+ ![image](https://user-images.githubusercontent.com/37058499/84203926-49d95a00-aa78-11ea-85c7-679f1c1c2a9e.png)
+
 10.	Drag and drop Measure Values into Rows. Then all variables will appear under the marks. Drag and drop the unwanted once out of the space. Now you should have Population 2016-2019 data under measure values only.
  
+ ![image](https://user-images.githubusercontent.com/37058499/84203977-5b226680-aa78-11ea-9fe2-a92942b09383.png)
+
 11.	Drag and drop Measure names into Columns so that all stacked bars are shifted side by side.
  
+ ![image](https://user-images.githubusercontent.com/37058499/84204005-6b3a4600-aa78-11ea-98cb-60dd9825a5d9.png)
+
 12.	Drag and drop Measure Values on Color so that all bars are colored by its values.
  
+ ![image](https://user-images.githubusercontent.com/37058499/84204045-7db47f80-aa78-11ea-8efc-a839581a534f.png)
+
 13.	To have all values showing on top of the bars, drag and drop Measure Values on Label under Marks.
  
+ ![image](https://user-images.githubusercontent.com/37058499/84204066-8c9b3200-aa78-11ea-80af-3b821f43f2bd.png)
+
 14.	Now we have completed the second sheet. Go back to the first sheet and use Tooltip to insert it. 
-Tooltip -> Insert on the tip right of the edit box -> Sheet 2 -> OK
- 
+
+   Tooltip -> Insert on the tip right of the edit box -> Sheet 2 -> OK
+   
+ ![image](https://user-images.githubusercontent.com/37058499/84204137-a50b4c80-aa78-11ea-8494-6819216c740c.png)
+
 15.	 To change the background map to a dark mode, go to Map -> Map Layers.  
+
+![image](https://user-images.githubusercontent.com/37058499/84204175-b2283b80-aa78-11ea-8193-cf3919b68d81.png)
 
 16.	On the left sidebar, change the background style to Dark.
  
+ ![image](https://user-images.githubusercontent.com/37058499/84204197-c0765780-aa78-11ea-8f75-bb4e68c1595c.png)
+
 17.	Your final map should look like below:
  
+![image](https://user-images.githubusercontent.com/37058499/84204230-cf5d0a00-aa78-11ea-9bc7-81410861bd1a.png)
