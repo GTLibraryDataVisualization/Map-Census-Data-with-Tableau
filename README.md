@@ -2,59 +2,63 @@
 
 ## 1. Fetch Data from SimplyAnalytics
 1).	Log into SimplyAnalytics as a guest from the library website: http://libguides.gatech.edu/az.php?a=
+
 2).	The page will prompt you with a New Project box. Search the location Georgia here.
+
 3).	Then choose #Population and Median Household Income
+
 4).	Create Project
 
-![image](https://user-images.githubusercontent.com/37058499/84200477-e26ddb00-aa74-11ea-92ea-c0abde7b7a6d.png)
+ ![image](https://user-images.githubusercontent.com/37058499/84200477-e26ddb00-aa74-11ea-92ea-c0abde7b7a6d.png)
 
 5).	Name project: (on the top left) double click Current Project: New Project -> rename it in the pop-up box
+
 6).	Add extra years of Population and Median Household Income to the table: 
+
  a.	Comparison Table -> Population Data -> 2018/2017/2016 -> Choose Population
+ 
  b.	Income -> 2018/2017/2016 ->Choose Median Household Income
 
- ![image](https://user-images.githubusercontent.com/37058499/84200433-cf5b0b00-aa74-11ea-964c-d06ec909f17c.png)
+  ![image](https://user-images.githubusercontent.com/37058499/84200433-cf5b0b00-aa74-11ea-964c-d06ec909f17c.png)
  
  c.	After added, the final view should look like this:
 
- ![image](https://user-images.githubusercontent.com/37058499/84200655-2cef5780-aa75-11ea-9870-9ab8cd1fc864.png)
+  ![image](https://user-images.githubusercontent.com/37058499/84200655-2cef5780-aa75-11ea-9870-9ab8cd1fc864.png)
 
 7.	On the right-side of the window -> New View  
 
-![image](https://user-images.githubusercontent.com/37058499/84201061-b2730780-aa75-11ea-9e1d-e25546324e63.png)
+ ![image](https://user-images.githubusercontent.com/37058499/84201061-b2730780-aa75-11ea-9e1d-e25546324e63.png)
 
 8.	Ranking Table -> Create
 
-![image](https://user-images.githubusercontent.com/37058499/84201099-c454aa80-aa75-11ea-8714-412b2a31e4e9.png)
+ ![image](https://user-images.githubusercontent.com/37058499/84201099-c454aa80-aa75-11ea-8714-412b2a31e4e9.png)
 
 9.	Click on the new Ranking tab generated
 
-![image](https://user-images.githubusercontent.com/37058499/84201152-ddf5f200-aa75-11ea-92da-dae961d896b3.png)
+ ![image](https://user-images.githubusercontent.com/37058499/84201152-ddf5f200-aa75-11ea-92da-dae961d896b3.png)
  
 10.	Change the variables on top: top 100 / Counties
 
-![image](https://user-images.githubusercontent.com/37058499/84201301-ec440e00-aa75-11ea-9659-42dc1d375250.png)
+ ![image](https://user-images.githubusercontent.com/37058499/84201301-ec440e00-aa75-11ea-9659-42dc1d375250.png)
  
 11.	Export
 
-![image](https://user-images.githubusercontent.com/37058499/84201512-fd8d1a80-aa75-11ea-8508-58e485ff204c.png)
+ ![image](https://user-images.githubusercontent.com/37058499/84201512-fd8d1a80-aa75-11ea-8508-58e485ff204c.png)
  
 12.	Fetch map data. Go back to Map, and then select the variable you want to map, if applicable.
 
+ ![image](https://user-images.githubusercontent.com/37058499/84202192-34fbc700-aa76-11ea-862d-758fb04e8b36.png)
 
-![image](https://user-images.githubusercontent.com/37058499/84202192-34fbc700-aa76-11ea-862d-758fb04e8b36.png)
-
- 
 13.	With the variables, SimplyAnalytics will generate the map below.
  
-![image](https://user-images.githubusercontent.com/37058499/84202458-49d85a80-aa76-11ea-85d8-d8eefff97d82.png)
+ ![image](https://user-images.githubusercontent.com/37058499/84202458-49d85a80-aa76-11ea-85d8-d8eefff97d82.png)
 
 14.	Export shapefile. It will be emailed to you after you fill out the form.
  
-![image](https://user-images.githubusercontent.com/37058499/84202737-5f4d8480-aa76-11ea-93ca-634451400dfa.png)
+ ![image](https://user-images.githubusercontent.com/37058499/84202737-5f4d8480-aa76-11ea-93ca-634451400dfa.png)
 
 
-Tableau Visualization
+# Tableau Visualization
 1.	Import Data
 a.	Import Excel data
  
