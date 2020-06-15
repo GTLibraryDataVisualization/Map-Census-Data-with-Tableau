@@ -4,7 +4,7 @@ The workshop will walk you through two steps of work:
 1. Filter and download the file needed from SimpleAnalytics;
 2. Visualize it in Tableau.
 
-Due to the big number of registrants, we may not have enough seats in SimpleAnalytics. We apologize ahead of time if you can only view the demo. You are welcome to come back try it yourself after the workshop.
+Due to the big number of registrants, we may not have enough seats in SimpleAnalytics. We apologize ahead of time if you can only view the demo. You are welcome to come back try it yourself after the workshop. All workshop data is available for download in this repository.
 
 
 ## 1. Fetch Data from SimplyAnalytics
