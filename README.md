@@ -1,5 +1,12 @@
 ## For this workshop we will be using population data, median household income data and map data. The tool we will be using to collect all data is SimplyAnalytics.
 
+The workshop will walk you through two steps of work: 
+1. Filter and download the file needed from SimpleAnalytics;
+2. Visualize it in Tableau.
+
+Due to the big number of registrants, we may not have enough seats in SimpleAnalytics. We apologize ahead of time if you can only view the demo. You are welcome to come back try it yourself after the workshop.
+
+
 ## 1. Fetch Data from SimplyAnalytics
 1).	Log into SimplyAnalytics as a guest from the library website: http://libguides.gatech.edu/az.php?a=
 
