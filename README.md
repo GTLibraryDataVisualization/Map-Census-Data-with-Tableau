@@ -1,5 +1,7 @@
 ## For this workshop we will be using population data, median household income data and map data. The tool we will be using to collect all data is SimplyAnalytics.
 
+After this workshop, we would appreciate your input on how your workshop experience is and how we can do better here: https://docs.google.com/forms/d/e/1FAIpQLScpN3Leq765IihESOpakWJgj4MqdtR_jf9GXtlyqrMGA7nYqg/viewform?usp=sf_link
+
 The workshop will walk you through two steps of work: 
 1. Filter and download the file needed from SimpleAnalytics;
 2. Visualize it in Tableau.
